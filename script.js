@@ -107,8 +107,7 @@ function startMatch(){
        let highscore = localStorage.getItem("highscore");
         if(highscore !== null){
             if (score >= highscore) {
-                localStorage.setItems("highscore", score); 
-                    
+                localStorage.setItems("highscore", score);     
             }
         }
         else{
@@ -158,7 +157,6 @@ function checkStatus(){
         startBtn.innerHTML="Restart";
         // score = 0;
     }
-    
 }
 
 startBtn.addEventListener("click", init);
