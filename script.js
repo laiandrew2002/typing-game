@@ -106,12 +106,16 @@ function startMatch(){
        //Store Highscore
        let highscore = localStorage.getItem("highscore");
         if(highscore !== null){
+            
             if (score >= highscore) {
-                localStorage.setItems("highscore", score);     
+                highscore = score;
+                localStorage.setItem("highscore", highscore);  
             }
         }
         else{
-                localStorage.setItem("highscore", score);
+                highscore = score;
+                localStorage.setItem("highscore", highscore);
+               
         }
         highscoreDisplay.innerHTML = highscore;
             
