@@ -38,12 +38,12 @@ const words = [
     'muddle',
     'spray',
     'telling',
-    'gaping',
+    'burger',
     'exotic',
     'soup',
     'awake',
     'twist',
-    'care',
+    'pizza',
     'skillful',
     'tired',
     'knock',
@@ -51,7 +51,7 @@ const words = [
     'agonizing',
     'right',
     'peep',
-    'four',
+    'cupcake',
     'ethereal',
     'location'
 ];
