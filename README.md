@@ -6,7 +6,7 @@ A simple Typing Game built with Javascript with the features:
 
 - Difficulty will increase every 10 points.
 
--Highscore will be store in local storage.
+- Highscore will be store in local storage.
 
 
 
